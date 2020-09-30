@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 1.5em;
+    width: 95%;
+    padding-left: 1.5em;
+    font-weight:400;
+    color:hsl(243, 87%, 12%);
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+}
+ul{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    
+}
+li{
+
+    list-style-type: none;
+    padding: 1em;
+}
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    margin-top: 2.5em;
+}
+.form{
+    margin-top: 1.2em;
+    padding-bottom: 1.5em;
+    padding-left: 2.5em;
+    
+}
+
+.form p{
+    padding-top: 0.8em;
+}
+form{
+    padding-top: 0.8em;
+
+}
+#input1{
+    padding: 0.5em;
+    width: 45%;
+    border: 0.1px solid hsl(243, 87%, 12%);
+}
+#button1{
+    margin-left: 0.2em;
+    padding: 0.5em;
+    text-align:center;
+    background-color:hsl(224, 93%, 58%);
+    color:hsl(240, 75%, 98%);
+    border: none;
+    width: 25%;
+}
+#image{ 
+    max-width: 70%;
+    height: auto;
+}
+.collaboration{
+    margin-top:3.5em;
+    background-image: url("images/bg-curve-desktop.svg");
+    padding: 4.5em 0;
+    color: hsl(243, 87%, 12%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    justify-content: space-between;
+}
+#image2{
+    max-width: 70%;
+    height: auto;
+    margin-left: 3.5em;
+}
+.productive{
+    padding-left: 2.5em;
+}
+.productive p{
+    padding: 1em 0;
+}
+#color{
+    color:hsl(170, 45%, 43%);
+}
+span{
+    margin-top: 0.4em;
+}
+.quote{
+    background-color:#ffffff;
+    width: 45%;
+    margin: 2em 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5em;
+    font-size: 0.8em;
+    
+}
+#kyle{
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+
+    
+
+    
+}
+.image{
+    display: flex;
+    margin: 0.2em;
+
+}
+.image h3{
+    padding-left: 0.5em;
+}
+.acess{
+    background-color: hsl(238, 22%, 44%);
+    padding:3em 0 1.5em 2.5em;
+    color:hsl(240, 75%, 98%);
+    
+    
+}
+.question{
+    width: 40%;
+}
+.question p{
+    padding: 0.5em 0;
+    font-size: 15px;
+}
+.input-email{
+    margin-left: 10.5em;
+    width: 60%;
+    margin-top: 0.7em;
+}
+#input2{
+    padding:0.5em;
+    width: 70%;
+    margin-bottom: 0.5em;
+    border-color: hsl(243, 87%, 12%) ;
+}
+#button2{
+    width: 30%;
+    border: none;
+    padding: 0.5em;
+    background-color: hsl(224, 93%, 58%);
+    text-align: center;
+    color:hsl(240, 75%, 98%);
+}
+footer{
+    background-color:hsl(243, 87%, 12%);
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+}
+#final-logo{
+    filter: brightness(0) invert(1);
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    color:hsl(240, 75%, 98%);
+    padding-left: 1.5em;
+    padding-right: 4.5em;
+
+}
+.footer a{
+    text-decoration: none;
+    color:hsl(240, 75%, 98%);
+}
+.icon{
+    width: 8%;
+    margin-right:0.5em;
+}
+
+.social-icon {
+    font-size: 15px;
+    border-radius: 80%;
+    border: solid 1px #fff;
+    margin: 0 3px;
+    padding: 8px;
+    justify-content: center;
+  }
+.bottom h5{
+    padding-bottom: 1em;
+}
+.footer a:hover{
+    color:hsl(238, 22%, 44%);
+}
+#button1:hover,#button2:hover{
+    background-color:hsl(243, 87%, 12%);
+}
+
+@media only screen and (max-width:770px){
+    body{
+        width: 100%;
+        padding-left:0;
+        margin-left: 0;
+    
+    }
+   navbar img{
+        max-width: 40%;
+        height: auto;
+    }
+    li{
+        font-size:14px;
+    }
+    .row{
+        flex-direction: column;
+        width: 95%;
+    }
+    .column{
+        width: 100%;
+    }
+    .main,.collaboration{
+        flex-direction: column-reverse;
+    }
+    #image{
+        padding-left: 1.8em;
+    }
+    #input1,#button1{
+        width: 100%;
+        border-radius: 0.1em;
+    }
+    #input1{
+        padding: 0.7em;
+    }
+    #button1{ 
+        margin-top: 0.8em;
+        margin-left:0;
+        padding: 0.7em;
+    }
+    .collaboration{
+        padding-left: 1.5em;
+        margin-left:0.3em;;
+        width: 100%;
+    }
+    #image2{
+        padding-bottom: 0.8em;
+    }
+    .quote{
+        width:80%;
+    }
+    .acess,footer{
+        margin-left: 0.3em;
+        width:100%;
+    }
+    .input-email{
+        margin-left:0;
+    }
+    #input2,#button2{
+        width: 90%;
+        border-radius: 0.1em;
+    }
+    
+    
+}
