@@ -214,16 +214,22 @@ footer{
         margin-left: 0;
     
     }
+    navbar{
+        justify-content: space-between;
+        padding-left:1.5em;
+        width:85%;
+    }
    navbar img{
-        max-width: 40%;
+        max-width: 20%;
         height: auto;
     }
     li{
-        font-size:14px;
+        font-size:0.8em;
+        padding:0.5em;
     }
     .row{
         flex-direction: column;
-        width: 95%;
+        width: 90%;
     }
     .column{
         width: 100%;
@@ -232,7 +238,19 @@ footer{
         flex-direction: column-reverse;
     }
     #image{
+        padding-top:2.5em;
         padding-left: 1.8em;
+        width:90%;
+    }
+    .form h1,.productive h1{
+        width:90%;
+        font-size:1.2em;
+        line-height:1.5;
+    }
+    .form p{
+        width:90%;
+        font-size:0.8em;
+        line-height:1.2;
     }
     #input1,#button1{
         width: 100%;
@@ -247,18 +265,29 @@ footer{
         padding: 0.7em;
     }
     .collaboration{
-        padding-left: 1.5em;
-        margin-left:0.3em;;
+        background-image: url("images/bg-curve-mobile.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 0;
+        margin-left:0;
         width: 100%;
+        
+    }
+    .productive h1{
+        font-size:1em;
+        width:100%;
+    }
+    .productive p{
+        width:98%;
     }
     #image2{
         padding-bottom: 0.8em;
     }
     .quote{
-        width:80%;
+        width:95%;
     }
     .acess,footer{
-        margin-left: 0.3em;
+        margin-left: 0;
         width:100%;
     }
     .input-email{
